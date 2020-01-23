@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Zodiac.Content", "Zodiac.Content\Zodiac.Content.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zodiac.Desktop", "Zodiac.Desktop\Zodiac.Desktop.csproj", "{969FE6AA-2B21-492F-B1CC-625EB6B5291E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zodiac.Android", "Zodiac.Android\Zodiac.Android.csproj", "{16DE52C9-5A33-4C77-B40B-4C644981D00F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Zodiac.Common", "Zodiac.Common\Zodiac.Common.shproj", "{10D483C8-5C3A-49B2-84B7-0CBA22D5B70D}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Zodiac.Common\Zodiac.Common.projitems*{10d483c8-5c3a-49b2-84b7-0cba22d5b70d}*SharedItemsImports = 13
+		Zodiac.Common\Zodiac.Common.projitems*{16de52c9-5a33-4c77-b40b-4c644981d00f}*SharedItemsImports = 4
+		Zodiac.Content\Zodiac.Content.projitems*{16de52c9-5a33-4c77-b40b-4c644981d00f}*SharedItemsImports = 4
+		Zodiac.Common\Zodiac.Common.projitems*{969fe6aa-2b21-492f-b1cc-625eb6b5291e}*SharedItemsImports = 4
+		Zodiac.Content\Zodiac.Content.projitems*{969fe6aa-2b21-492f-b1cc-625eb6b5291e}*SharedItemsImports = 4
+		Zodiac.Content\Zodiac.Content.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{969FE6AA-2B21-492F-B1CC-625EB6B5291E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969FE6AA-2B21-492F-B1CC-625EB6B5291E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969FE6AA-2B21-492F-B1CC-625EB6B5291E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969FE6AA-2B21-492F-B1CC-625EB6B5291E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16DE52C9-5A33-4C77-B40B-4C644981D00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16DE52C9-5A33-4C77-B40B-4C644981D00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16DE52C9-5A33-4C77-B40B-4C644981D00F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{16DE52C9-5A33-4C77-B40B-4C644981D00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16DE52C9-5A33-4C77-B40B-4C644981D00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16DE52C9-5A33-4C77-B40B-4C644981D00F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B38AC946-4C7B-4ED0-9838-1A9650F2878A}
+	EndGlobalSection
+EndGlobal
